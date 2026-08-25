@@ -35,7 +35,26 @@ Ask Human only at the actual boundary where one of the following is required:
 - scope expansion not already authorized;
 - genuinely missing information that cannot be resolved from accessible authoritative sources.
 
-## 3. No ceremonial confirmation
+## 3. TODO continuation rule
+
+`TODO.md` is the work queue, not only a passive checklist.
+
+When a bounded step finishes:
+
+```text
+IF ODESŁAĆ = NIC
+→ reload TODO.md
+→ take the next actionable item
+→ continue working
+```
+
+Do not stop merely because one small stage ended.
+
+Stop and ask Human only when the next actionable TODO item is a genuine Human authority / semantic gate, or when the next item is explicitly BLOCKED and cannot be resolved from accessible evidence.
+
+After completing a TODO item, update `TODO.md` before moving to the next item so the queue reflects actual current state.
+
+## 4. No ceremonial confirmation
 
 Do not ask Human to approve routine continuation when:
 
@@ -44,15 +63,15 @@ Do not ask Human to approve routine continuation when:
 - the action stays inside the exact accepted scope;
 - no new authority or semantic decision is created.
 
-## 4. State discipline
+## 5. State discipline
 
 - `STATUS.md` is authoritative for program-level current state.
-- `TODO.md` records DONE / NEXT / BLOCKED / HUMAN AUTHORITY / DO NOT.
+- `TODO.md` records DONE / NEXT / BLOCKED / HUMAN AUTHORITY / DO NOT and acts as the active work queue.
 - Experiment-local truth belongs to that experiment's local `STATUS.md`.
 - Root files point to local owners instead of duplicating detailed state.
 - If two state surfaces conflict, preserve the conflict; do not silently choose the more convenient one.
 
-## 5. Evidence discipline
+## 6. Evidence discipline
 
 ```text
 SOURCE != EVIDENCE
@@ -66,7 +85,7 @@ STORED STATE != TRUTH
 
 Use `UNKNOWN` when evidence is insufficient.
 
-## 6. Frozen experiment discipline
+## 7. Frozen experiment discipline
 
 For a frozen protocol:
 
@@ -75,7 +94,7 @@ For a frozen protocol:
 - if a protocol defect is discovered, record the defect and create a later protocol version rather than silently repairing the current one;
 - keep exploratory/post-hoc work explicitly separate from preregistered evidence.
 
-## 7. Architecture discipline
+## 8. Architecture discipline
 
 A discovered requirement does not automatically justify a component.
 
@@ -91,7 +110,7 @@ PROPOSED SUBSTITUTE
 
 Before deleting or absorbing a mechanism, identify a concrete substitute for every real property it protects.
 
-## 8. Experiment separation
+## 9. Experiment separation
 
 ARX-001 asks what must exist architecturally.
 
@@ -99,7 +118,7 @@ HOT-001 asks how much Human operational orchestration the current system require
 
 They may inform later synthesis only after their own frozen stages are complete. They must not silently alter each other's preregistered inputs.
 
-## 9. Simple capture commands
+## 10. Simple capture commands
 
 Default capture is deliberately simple.
 
