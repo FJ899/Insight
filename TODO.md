@@ -37,15 +37,17 @@ Stop only at a real Human authority/semantic gate or an unresolved BLOCKED item.
 - [x] Adopt continue-until-authority rule: perform all safe, already-authorized work before asking Human.
 - [x] Adopt TODO continuation rule: `ODESŁAĆ = NIC` means load the next actionable TODO item and keep working.
 - [x] Simplify conversation capture to two commands: `W` → `W.md`, `Z` → `Z.md`.
-- [x] Screen existing COS project directories for HOT-001 suitability. `projects/bpm160` is the only explicit project directory under `COS/projects` and is a genuine unfinished Human project, but its current local state requires original source files before safe resume.
+- [x] Screen existing COS project directories for HOT-001 suitability.
+- [x] Classify useful HOT task classes without changing the frozen protocol: CREATIVE CONTINUITY / OPERATIONAL DELIVERY / REVENUE-MARKET / RESEARCH-DISCOVERY / RECOVERY-ARCHIVE.
+- [x] Reclassify BPM160 from generic execution project to `CREATIVE CONTINUITY` primary + `RECOVERY / ARCHIVE` secondary based on current Human clarification.
 
 ## NEXT
 
 - [ ] Select one real project for HOT-001 Primary Run. **HUMAN semantic selection required.**
-  - Candidate: `FJ899/COS/projects/bpm160`.
-  - Suitability: strong goal/state/unfinished real work; explicit Spike 001 gate.
-  - Constraint: local source of truth says `ORIGINAL SOURCE FILES REQUIRED FOR SAFE RESUME`; do not treat this as immediately runnable unless those sources are available.
-  - Do not use ecosystem-only test folders such as `tests/ginseng` as the primary HOT real-work baseline merely because they are self-contained.
+  - Current candidate: `BPM160`.
+  - Best-fit test: creative continuity, idea memory, canon/current-state preservation, anti-repetition, novel next-step generation, recovery from stale/incomplete stored descriptions.
+  - Do not use BPM160 alone to infer general capability for revenue, consequential execution, or deployment.
+  - Historical BPM160 source-recovery language is not treated as an automatic prerequisite; if selected, preserve source conflicts in the Start Record rather than silently rebuilding the old project architecture.
 - [ ] Freeze that project's HOT-001 Start Record before the run.
 - [ ] Run HOT-001 with current system AS-IS and passive instrumentation only.
 - [ ] Freeze immutable RAW event log.
