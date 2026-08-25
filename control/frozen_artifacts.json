@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "artifacts": [
+    {"path": "experiments/HOT-001/HOT-001_PROTOCOL_v1.0.md", "git_blob_sha1": "d669574b1c6a62d3a9117728cf334d7acaea2437"},
+    {"path": "experiments/HOT-001/START_RECORDS/HOT-001-BPM160-01_FROZEN.md", "git_blob_sha1": "402357e0019ed6e7d721c6f410847121e7eadc56"},
+    {"path": "experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md", "git_blob_sha1": "a80db7edcbaeaa265f325196f708212f24f247bb"},
+    {"path": "experiments/HOT-001/RAW/HOT-001-BPM160-01_PRIMARY_TRANSCRIPT_RAW.md", "git_blob_sha1": "1c6a7f54b261ee6d68a7e0e5d8c1fb6dc67868f9"},
+    {"path": "experiments/HOT-001/EVALUATIONS/HOT-001-BPM160-01_PRE_SEMANTIC_EVALUATION.md", "git_blob_sha1": "e5df8b3ed1090e769a18ff1e2e0a713ce3a0415a"},
+    {"path": "experiments/HOT-001/DECISIONS/HOT-001-BPM160-01_HUMAN_SEMANTIC_DECISION.md", "git_blob_sha1": "d56207e7ef686b72e3ec219e511b68b4fb7ed93f"},
+    {"path": "experiments/HOT-001/RESULTS/HOT-001-BPM160-01_FINAL_RECONCILIATION.md", "git_blob_sha1": "e0cc80ebb80d794de475dd634153df567f1a57d7"}
+  ]
+}
