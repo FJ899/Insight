@@ -8,6 +8,20 @@ This file answers only:
 - what requires Human authority;
 - what must not be changed yet.
 
+It is also the active work queue.
+
+Rule:
+
+```text
+WHEN A STEP ENDS
+AND ODESŁAĆ = NIC
+→ reload this file
+→ take the next actionable item
+→ continue
+```
+
+Stop only at a real Human authority/semantic gate or an unresolved BLOCKED item.
+
 ## DONE
 
 - [x] Create Insight as a separate experiment-control repository.
@@ -21,6 +35,7 @@ This file answers only:
 - [x] Persist `HANDOFF_v1`, `HOT_EVENT_v1`, and `START_RECORD_v1` schemas.
 - [x] Adopt `AKCJA → GDZIE → ODESŁAĆ` as the working handoff format.
 - [x] Adopt continue-until-authority rule: perform all safe, already-authorized work before asking Human.
+- [x] Adopt TODO continuation rule: `ODESŁAĆ = NIC` means load the next actionable TODO item and keep working.
 - [x] Simplify conversation capture to two commands: `W` → `W.md`, `Z` → `Z.md`.
 
 ## NEXT
