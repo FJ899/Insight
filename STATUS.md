@@ -22,15 +22,16 @@ Local owner: `experiments/ARX-001/STATUS.md`
 ```text
 PROTOCOL                       1.0
 MODE                           AS-IS / OBSERVATIONAL
-STATUS                         FROZEN BEFORE PRIMARY RUN
-PRIMARY RUN                    NOT STARTED
-PRODUCT CHANGE BEFORE BASELINE FORBIDDEN
-INSTRUMENTATION                PASSIVE ONLY
+PRIMARY RUN                    HOT-001-BPM160-01 COMPLETE
+EXTERNAL DONE                  PASS
+HUMAN RESCUES                  0
+HUMAN ORCHESTRATION ATTENTION  0 minutes observed
+RESCUE DEPENDENCY              UNKNOWN
+CURRENT GATE                   SUNFOLD SEMANTIC ACCEPT / REVISE / REJECT
+PRODUCT CHANGE                 NOT YET AUTHORIZED
 ```
 
-Research question:
-
-> What measurable operational work does Human perform for the current system that the system should be capable of supplying itself, without violating Human semantic authority?
+The BPM160 result is scoped to creative continuity / recovery-archive under the accessible pinned corpus. Do not generalize it to all workloads.
 
 Local owner: `experiments/HOT-001/STATUS.md`
 
