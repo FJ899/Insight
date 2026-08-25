@@ -1,16 +1,6 @@
 # Insight — TODO
 
-This file answers only:
-
-- what is DONE;
-- what is NEXT;
-- what is BLOCKED;
-- what requires Human authority;
-- what must not be changed yet.
-
-It is also the active work queue.
-
-Rule:
+This file is the active work queue.
 
 ```text
 WHEN A STEP ENDS
@@ -20,47 +10,45 @@ AND ODESŁAĆ = NIC
 → continue
 ```
 
-Stop only at a real Human authority/semantic gate or an unresolved BLOCKED item.
+Stop only at a real Human authority/semantic gate, unavoidable Human-only action, or unresolved BLOCKED item.
 
 ## DONE
 
 - [x] Create Insight as a separate experiment-control repository.
-- [x] Establish `START.md` as entrypoint.
-- [x] Establish root `STATUS.md` as authoritative program-level state.
+- [x] Establish `START.md`, root `STATUS.md`, `TODO.md`, and `OPERATING_PROTOCOL.md`.
 - [x] Separate ARX-001 from HOT-001.
-- [x] Persist `OPERATING_PROTOCOL.md`.
-- [x] Persist ARX-001 local status.
-- [x] Persist HOT-001 local status.
-- [x] Freeze HOT-001 baseline protocol v1.0.
-- [x] Persist `HANDOFF_v1`, `HOT_EVENT_v1`, and `START_RECORD_v1` schemas.
-- [x] Adopt `AKCJA → GDZIE → ODESŁAĆ` as the working handoff format.
-- [x] Adopt continue-until-authority rule: perform all safe, already-authorized work before asking Human.
-- [x] Adopt TODO continuation rule: `ODESŁAĆ = NIC` means load the next actionable TODO item and keep working.
-- [x] Simplify conversation capture to two commands: `W` → `W.md`, `Z` → `Z.md`.
-- [x] Screen existing COS project directories for HOT-001 suitability.
-- [x] Classify useful HOT task classes without changing the frozen protocol: CREATIVE CONTINUITY / OPERATIONAL DELIVERY / REVENUE-MARKET / RESEARCH-DISCOVERY / RECOVERY-ARCHIVE.
-- [x] Reclassify BPM160 from generic execution project to `CREATIVE CONTINUITY` primary + `RECOVERY / ARCHIVE` secondary based on current Human clarification.
-- [x] Prepare `experiments/HOT-001/START_RECORDS/BPM160_DRAFT.md` with all non-semantic fields that can be prepared before project selection.
+- [x] Persist/freeze HOT-001 baseline protocol v1.0 and schemas.
+- [x] Adopt `AKCJA → GDZIE → ODESŁAĆ`.
+- [x] Adopt continue-until-authority and TODO-continuation rules.
+- [x] Simplify capture to `W → W.md` and `Z → Z.md`.
+- [x] Classify HOT task classes without changing frozen metrics/protocol.
+- [x] Reclassify BPM160 as `CREATIVE CONTINUITY` primary + `RECOVERY / ARCHIVE` secondary.
+- [x] Human selected BPM160 for `HOT-001-BPM160-01`.
+- [x] Human accepted the BPM160 GOAL.
+- [x] Human accepted the BPM160 EXTERNAL DONE condition.
+- [x] Freeze `experiments/HOT-001/START_RECORDS/HOT-001-BPM160-01_FROZEN.md`.
+- [x] Prepare neutral `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md`.
+- [x] Keep the studied run separate from HOT methodology/evaluator criteria.
 
-## NEXT — HUMAN GATE
+## NEXT — HUMAN-ONLY SESSION BOUNDARY
 
-- [ ] Confirm or reject `BPM160` as the HOT-001 Primary Run project.
-- [ ] If confirmed, accept or replace the candidate GOAL and EXTERNAL DONE in `BPM160_DRAFT.md`.
+- [ ] Open a clean ChatGPT session with GitHub read access.
+- [ ] Submit exactly the contents of `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md` as the project instruction.
 
-Candidate GOAL:
+Why Human is required here:
 
-> Advance BPM160 by producing genuinely new series material while preserving the camera/protagonist + drone-reveal premise and avoiding material repetition of previously archived scenario/action ideas.
+```text
+This session designed/froze HOT-001 and knows the rescue/evaluation criteria.
+Running the studied task here would contaminate the AS-IS baseline.
+This environment cannot spawn a separate isolated ChatGPT conversation on the Human's behalf.
+```
 
-Candidate EXTERNAL DONE:
+After that clean Primary Run completes:
 
-> One new, reviewable BPM160 sequence/episode concept exists; it is explicitly checked against the accessible prior idea archive for material repetition; the system provides the comparison/evidence; and Human performs only semantic creative acceptance, not operational deduplication or route recovery.
-
-After Human resolves this gate, the next autonomous steps are:
-
-- freeze the Start Record;
-- begin the HOT-001 Primary Run with current system AS-IS;
-- freeze RAW events;
-- stop only at the next genuine Human authority/semantic gate or real blocker.
+- [ ] preserve the complete run transcript as RAW source;
+- [ ] classify Human interventions using frozen HOT-001 criteria in a separate evaluator context;
+- [ ] record EXTERNAL DONE and the frozen result report;
+- [ ] reconcile without rewriting RAW or Start Record.
 
 ## BLOCKED
 
@@ -68,21 +56,6 @@ After Human resolves this gate, the next autonomous steps are:
   - Exact standalone executable frozen prompt has not been recovered.
   - Methodology existed before R1A, but that is not equivalent to a frozen executable stage artifact.
   - Do not reconstruct it from known R1A results and call it frozen v1.0.
-
-## HUMAN AUTHORITY REQUIRED
-
-Human input is required only when the next step genuinely belongs to Human semantic or consequential authority, including:
-
-- selecting/changing GOAL;
-- defining/changing DONE;
-- value/preference/priority decisions;
-- canon decisions;
-- risk acceptance;
-- approval/rejection of consequential action;
-- legal/account/identity actions owned by Human;
-- semantic acceptance of a final result.
-
-Operational work that can be done safely and within existing authority should continue without asking Human merely for permission to proceed.
 
 ## DO NOT
 
@@ -95,3 +68,4 @@ Operational work that can be done safely and within existing authority should co
 - [ ] Do not add router / drift detector / trajectory manager / new navigation policy before HOT-001 baseline.
 - [ ] Do not contaminate ARX-001 with HOT evidence unless a frozen ARX stage explicitly permits it.
 - [ ] Do not turn `W.md` or `Z.md` into authoritative state automatically.
+- [ ] Do not expose the studied BPM160 session to HOT rescue/evaluator instructions.
