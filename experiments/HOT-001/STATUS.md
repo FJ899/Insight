@@ -38,9 +38,11 @@ Frozen Start Record:
 
 `START_RECORDS/HOT-001-BPM160-01_FROZEN.md`
 
-Neutral Primary Run input:
+Clean prompt to give the studied session:
 
-`RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md`
+`RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`
+
+`RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md` contains operator context and MUST NOT be pasted wholesale into the studied session because it names HOT methodology.
 
 ## Primary distinction
 
@@ -74,14 +76,7 @@ No new:
 
 ## BPM160 scope of inference
 
-This run can provide evidence primarily about:
-
-- creative continuity;
-- memory/recovery of prior ideas;
-- current meaning versus stale history;
-- material repetition / near-repetition detection;
-- novel next-material generation;
-- Human operational rerouting required to reach a creative result.
+This run can provide evidence primarily about creative continuity, memory/recovery of prior ideas, current meaning versus stale history, material repetition detection, novel next-material generation, and Human operational rerouting required to reach a creative result.
 
 Do not generalize one BPM160 run into claims about revenue, deployment, consequential effect authority, or all Projector workloads.
 
@@ -89,7 +84,7 @@ Do not generalize one BPM160 run into claims about revenue, deployment, conseque
 
 Do not execute the Primary Run in the session that designed/froze HOT-001, because that session has direct exposure to the evaluation criteria and rescue taxonomy.
 
-Launch a clean ChatGPT session with GitHub read access and supply only the neutral Primary Work Input. Do not add the HOT protocol or evaluator criteria to that session.
+Launch a clean ChatGPT session with GitHub read access and supply only the clean Primary Prompt. Do not add the HOT protocol, rescue taxonomy, evaluator criteria, or operator notes.
 
 The clean-session transcript is the primary RAW behavioral source. Classification happens later in a separate evaluation step.
 
@@ -98,7 +93,7 @@ The clean-session transcript is the primary RAW behavioral source. Classificatio
 ```text
 PRIMARY RUN: READY / NOT STARTED
 START RECORD: FROZEN
-RUN INPUT: READY
+CLEAN PRIMARY PROMPT: READY
 RAW EVENT LOG: PENDING RUN
 EVALUATION: PENDING
 RECONCILIATION: PENDING
@@ -106,4 +101,4 @@ RECONCILIATION: PENDING
 
 ## Next
 
-Human performs the unavoidable UI/session boundary: open a clean ChatGPT session with GitHub access and submit exactly `RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md` as the project instruction.
+Human performs the unavoidable UI/session boundary: open a clean ChatGPT session with GitHub access and submit exactly the contents of `RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`.
