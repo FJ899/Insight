@@ -21,11 +21,7 @@ This file answers only:
 - [x] Persist `HANDOFF_v1`, `HOT_EVENT_v1`, and `START_RECORD_v1` schemas.
 - [x] Adopt `AKCJA → GDZIE → ODESŁAĆ` as the working handoff format.
 - [x] Adopt continue-until-authority rule: perform all safe, already-authorized work before asking Human.
-- [x] Add `ARCHIVE_PROTOCOL.md` separating RAW conversation / session harvest / insight / decision / current state / technical trace.
-- [x] Add root `INSIGHTS.md` as a non-authoritative high-value conceptual ledger.
-- [x] Add `SESSION_HARVEST_v1` schema.
-- [x] Persist a first harvest for the 2026-08-25 ARX/HOT/product-reality session.
-- [x] Adopt insight-first communication with technical detail retained as evidence/trace rather than deleted.
+- [x] Simplify conversation capture to two commands: `W` → `W.md`, `Z` → `Z.md`.
 
 ## NEXT
 
@@ -34,9 +30,6 @@ This file answers only:
 - [ ] Run HOT-001 with current system AS-IS and passive instrumentation only.
 - [ ] Freeze immutable RAW event log.
 - [ ] Evaluate RAW in a separate evaluation session using frozen criteria.
-- [ ] Establish a durable RAW conversation-export path for material sessions; do not rely only on chat/share links.
-- [ ] Backfill historical conversations selectively, starting with sessions that changed the mental model or contain unresolved high-value ideas.
-- [ ] For material sessions going forward, create a session harvest before closeout when new insight would otherwise remain chat-only.
 
 ## BLOCKED
 
@@ -70,5 +63,4 @@ Operational work that can be done safely and within existing authority should co
 - [ ] Do not build Projector v2 before HOT-001 baseline.
 - [ ] Do not add router / drift detector / trajectory manager / new navigation policy before HOT-001 baseline.
 - [ ] Do not contaminate ARX-001 with HOT evidence unless a frozen ARX stage explicitly permits it.
-- [ ] Do not treat `INSIGHTS.md` as a source of automatic architecture or product authority.
-- [ ] Do not solve archive loss by summarizing away technical evidence or by attempting exhaustive backfill of every historical chat at once.
+- [ ] Do not turn `W.md` or `Z.md` into authoritative state automatically.
