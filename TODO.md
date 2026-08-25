@@ -24,25 +24,43 @@ Stop only at a real Human authority/semantic gate, unavoidable Human-only action
 - [x] Classify HOT task classes without changing frozen metrics/protocol.
 - [x] Select BPM160 and freeze Human-approved GOAL / EXTERNAL DONE.
 - [x] Freeze `START_RECORDS/HOT-001-BPM160-01_FROZEN.md`.
-- [x] Prepare clean studied-session prompt with HOT methodology excluded.
-- [x] Human launched the clean BPM160 Primary Run.
-- [x] Primary Run produced `SUNFOLD` and reached the final semantic gate.
-- [x] Freeze supplied clean-session transcript as `RAW/HOT-001-BPM160-01_PRIMARY_TRANSCRIPT_RAW.md`.
-- [x] Independently check the relevant pinned COS evidence boundary.
+- [x] Prepare and launch clean studied-session prompt with HOT methodology excluded.
+- [x] Freeze clean BPM160 Primary Run RAW.
 - [x] Freeze pre-semantic evaluation: EXTERNAL DONE PASS, Human Rescue Count 0, orchestration attention 0 minutes observed, rescue dependency UNKNOWN.
+- [x] Human semantically accepted `SUNFOLD`.
+- [x] Record Human semantic decision separately from RAW/evaluation.
+- [x] Complete `HOT-001-BPM160-01` final reconciliation without rewriting frozen artifacts.
+- [x] Update local and program status.
+- [x] Determine that this run exposes no measured Human Rescue class and therefore does not justify a HOT-002 intervention.
 
 ## NEXT — HUMAN SEMANTIC GATE
 
-- [ ] Human judges `SUNFOLD`: `ACCEPT / REVISE / REJECT`.
+Select one real workload from a materially different class for the next clean AS-IS baseline.
 
-This is legitimate Human semantic authority, not Human orchestration tax.
+Preferred classes:
 
-After that decision, continue autonomously:
+```text
+OPERATIONAL DELIVERY
+or
+REVENUE / MARKET
+```
 
-- [ ] record the Human semantic decision separately from RAW/evaluation;
-- [ ] perform final `HOT-001-BPM160-01` reconciliation;
-- [ ] update program/local status without rewriting frozen artifacts;
-- [ ] then reload TODO and take the next actionable program item.
+Selection criteria:
+
+- real work the Human actually wants done independently of ecosystem development;
+- externally judgeable DONE condition;
+- enough existing context or accessible evidence to make the task real rather than synthetic;
+- not merely another creative-memory/dedup variant of BPM160.
+
+After Human selects the workload, continue autonomously:
+
+- [ ] define/freeze its Start Record with Human only for genuinely semantic GOAL/DONE fields;
+- [ ] prepare clean studied-session prompt;
+- [ ] run through the same frozen HOT-001 v1.0 observational discipline;
+- [ ] freeze RAW;
+- [ ] evaluate separately;
+- [ ] reconcile;
+- [ ] only then decide whether a measured rescue class justifies a minimal HOT-002 intervention.
 
 ## BLOCKED
 
@@ -53,14 +71,15 @@ After that decision, continue autonomously:
 
 ## DO NOT
 
-- [ ] Do not rewrite HOT-001-BPM160-01 RAW or frozen Start Record.
+- [ ] Do not rewrite HOT-001-BPM160-01 RAW, frozen Start Record, or frozen pre-semantic evaluation.
 - [ ] Do not reinterpret `0 rescues` as rescue dependency `LOW`; current value is `UNKNOWN`.
 - [ ] Do not generalize BPM160 to revenue, deployment, consequential effects, or all workloads.
+- [ ] Do not build HOT-002 mechanism without a measured rescue class.
 - [ ] Do not refactor COS from R1A conclusions.
 - [ ] Do not delete or absorb Saddle yet.
 - [ ] Do not redesign Executor yet.
 - [ ] Do not build a Ginseng runtime.
 - [ ] Do not replace ScriptOps yet.
-- [ ] Do not build Projector v2 or HOT-002 intervention before HOT-001 baseline reconciliation.
+- [ ] Do not build Projector v2 before stronger baseline evidence.
 - [ ] Do not contaminate ARX-001 with HOT evidence unless a frozen ARX stage explicitly permits it.
 - [ ] Do not turn `W.md` or `Z.md` into authoritative state automatically.
