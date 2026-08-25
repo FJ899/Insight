@@ -22,33 +22,27 @@ Stop only at a real Human authority/semantic gate, unavoidable Human-only action
 - [x] Adopt continue-until-authority and TODO-continuation rules.
 - [x] Simplify capture to `W → W.md` and `Z → Z.md`.
 - [x] Classify HOT task classes without changing frozen metrics/protocol.
-- [x] Reclassify BPM160 as `CREATIVE CONTINUITY` primary + `RECOVERY / ARCHIVE` secondary.
-- [x] Human selected BPM160 for `HOT-001-BPM160-01`.
-- [x] Human accepted the BPM160 GOAL.
-- [x] Human accepted the BPM160 EXTERNAL DONE condition.
-- [x] Freeze `experiments/HOT-001/START_RECORDS/HOT-001-BPM160-01_FROZEN.md`.
-- [x] Prepare clean studied-session prompt: `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`.
-- [x] Keep HOT methodology/evaluator criteria out of the clean studied-session prompt.
+- [x] Select BPM160 and freeze Human-approved GOAL / EXTERNAL DONE.
+- [x] Freeze `START_RECORDS/HOT-001-BPM160-01_FROZEN.md`.
+- [x] Prepare clean studied-session prompt with HOT methodology excluded.
+- [x] Human launched the clean BPM160 Primary Run.
+- [x] Primary Run produced `SUNFOLD` and reached the final semantic gate.
+- [x] Freeze supplied clean-session transcript as `RAW/HOT-001-BPM160-01_PRIMARY_TRANSCRIPT_RAW.md`.
+- [x] Independently check the relevant pinned COS evidence boundary.
+- [x] Freeze pre-semantic evaluation: EXTERNAL DONE PASS, Human Rescue Count 0, orchestration attention 0 minutes observed, rescue dependency UNKNOWN.
 
-## NEXT — HUMAN-ONLY SESSION BOUNDARY
+## NEXT — HUMAN SEMANTIC GATE
 
-- [ ] Open a clean ChatGPT session with GitHub read access.
-- [ ] Submit exactly the contents of `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`.
+- [ ] Human judges `SUNFOLD`: `ACCEPT / REVISE / REJECT`.
 
-Why Human is required here:
+This is legitimate Human semantic authority, not Human orchestration tax.
 
-```text
-This session designed/froze HOT-001 and knows the rescue/evaluation criteria.
-Running the studied task here would contaminate the AS-IS baseline.
-This environment cannot spawn a separate isolated ChatGPT conversation on the Human's behalf.
-```
+After that decision, continue autonomously:
 
-After that clean Primary Run completes:
-
-- [ ] preserve the complete run transcript as RAW source;
-- [ ] classify Human interventions using frozen HOT-001 criteria in a separate evaluator context;
-- [ ] record EXTERNAL DONE and the frozen result report;
-- [ ] reconcile without rewriting RAW or Start Record.
+- [ ] record the Human semantic decision separately from RAW/evaluation;
+- [ ] perform final `HOT-001-BPM160-01` reconciliation;
+- [ ] update program/local status without rewriting frozen artifacts;
+- [ ] then reload TODO and take the next actionable program item.
 
 ## BLOCKED
 
@@ -59,13 +53,14 @@ After that clean Primary Run completes:
 
 ## DO NOT
 
+- [ ] Do not rewrite HOT-001-BPM160-01 RAW or frozen Start Record.
+- [ ] Do not reinterpret `0 rescues` as rescue dependency `LOW`; current value is `UNKNOWN`.
+- [ ] Do not generalize BPM160 to revenue, deployment, consequential effects, or all workloads.
 - [ ] Do not refactor COS from R1A conclusions.
 - [ ] Do not delete or absorb Saddle yet.
 - [ ] Do not redesign Executor yet.
 - [ ] Do not build a Ginseng runtime.
 - [ ] Do not replace ScriptOps yet.
-- [ ] Do not build Projector v2 before HOT-001 baseline.
-- [ ] Do not add router / drift detector / trajectory manager / new navigation policy before HOT-001 baseline.
+- [ ] Do not build Projector v2 or HOT-002 intervention before HOT-001 baseline reconciliation.
 - [ ] Do not contaminate ARX-001 with HOT evidence unless a frozen ARX stage explicitly permits it.
 - [ ] Do not turn `W.md` or `Z.md` into authoritative state automatically.
-- [ ] Do not expose the studied BPM160 session to HOT rescue/evaluator instructions or operator notes.
