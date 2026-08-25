@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "limitations": [
+    {
+      "id": "HOT-LIM-001",
+      "state": "OPEN",
+      "summary": "HOT-001-BPM160-01 primary prompt embedded a HOT-relevant orchestration condition inside DONE, so the AS-IS baseline is methodologically contaminated and must not be treated as a clean autonomy measurement."
+    },
+    {
+      "id": "HOT-LIM-002",
+      "state": "OPEN",
+      "summary": "HOT-001-BPM160-01 RAW was reconstructed from a Human-pasted response; no native platform transcript export is available, so byte-exact interaction provenance is unavailable."
+    },
+    {
+      "id": "ARX-LIM-001",
+      "state": "OPEN",
+      "summary": "ARX-001 is not self-contained auditable evidence: frozen RAW artifacts are not stored in this repository and R1A-S RAW_SHA256 remains UNKNOWN."
+    }
+  ]
+}

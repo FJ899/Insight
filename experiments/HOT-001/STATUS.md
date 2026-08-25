@@ -4,10 +4,9 @@
 
 ```text
 EXPERIMENT: HOT-001
-NAME: HUMAN ORCHESTRATION TAX BASELINE
-PROTOCOL: 1.0
+PROTOCOL: 1.0 frozen historical / 1.1 corrective candidate NOT FROZEN
 MODE: AS-IS / OBSERVATIONAL
-STATUS: BASELINE RUN 01 COMPLETE / RECONCILED
+STATUS: BASELINE RUN 01 COMPLETE / RECONCILED WITH OPEN LIMITATIONS
 ```
 
 ## Research question
@@ -37,11 +36,13 @@ Artifacts:
 - `DECISIONS/HOT-001-BPM160-01_HUMAN_SEMANTIC_DECISION.md`
 - `RESULTS/HOT-001-BPM160-01_FINAL_RECONCILIATION.md`
 
+Their frozen Git blob identities are pinned in `../../control/frozen_artifacts.json`.
+
 ## Final observed baseline
 
 ```text
 EXTERNAL DONE: PASS
-HUMAN RESCUE COUNT: 0
+HUMAN RESCUE COUNT: 0 observed
 R0: 0
 R1: 0
 R2: 0
@@ -59,9 +60,23 @@ HUMAN SEMANTIC ACCEPTANCE: SUNFOLD ACCEPT
 
 `RESCUE DEPENDENCY` remains `UNKNOWN`: there was no rescue event and no correction-retention cycle.
 
+## Open methodological limitations
+
+```text
+HOT-LIM-001 OPEN
+The model-visible BPM160 DONE text explicitly required that Human perform only semantic acceptance and not operational deduplication or route recovery. That is HOT-relevant behavioral guidance inside the studied prompt. Therefore the run must not be represented as a clean measurement of unprompted orchestration behavior.
+
+HOT-LIM-002 OPEN
+The RAW transcript was preserved from Human copy/paste, not a native platform export. Byte-exact interaction provenance is unavailable.
+```
+
+These limitations do not erase the observed result. They constrain what can be inferred from it.
+
 ## Interpretation
 
-For this bounded creative-continuity / recovery-archive workload, the clean session reached the accepted DONE without observed Human operational rescue. Human supplied only legitimate semantic authority before and after the run.
+For this bounded creative-continuity / recovery-archive workload, the supplied transcript reached accepted DONE without observed Human operational rescue. Human supplied semantic authority before and after the run.
+
+Because of `HOT-LIM-001`, this cannot establish that the same zero-rescue behavior would have occurred without HOT-relevant prompt shaping.
 
 Do not generalize this result to revenue, deployment, consequential execution, or all Projector workloads.
 
@@ -73,9 +88,15 @@ HOT-002 INTERVENTION JUSTIFIED BY THIS RUN: NO
 
 Reason: this run exposed no measured Human Rescue class. Do not invent a mechanism merely because HOT-001 completed.
 
+## Corrective protocol
+
+`HOT-001_PROTOCOL_v1.1.md` and `../../schemas/START_RECORD_v1.1.md` are corrective candidates for the next run. They are **NOT FROZEN** and do not rewrite v1.0 history.
+
+They add prompt-hygiene separation, interaction-shape declaration, transcript-provenance requirements, mechanical frozen-artifact integrity, and explicit limitation tracking.
+
 ## Next genuine Human gate
 
-To broaden the evidence base, select one real workload from a materially different class for another clean AS-IS baseline run.
+Select one real workload from a materially different class for another AS-IS baseline run.
 
 Preferred next classes:
 
