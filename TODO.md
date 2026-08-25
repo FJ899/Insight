@@ -40,18 +40,27 @@ Stop only at a real Human authority/semantic gate or an unresolved BLOCKED item.
 - [x] Screen existing COS project directories for HOT-001 suitability.
 - [x] Classify useful HOT task classes without changing the frozen protocol: CREATIVE CONTINUITY / OPERATIONAL DELIVERY / REVENUE-MARKET / RESEARCH-DISCOVERY / RECOVERY-ARCHIVE.
 - [x] Reclassify BPM160 from generic execution project to `CREATIVE CONTINUITY` primary + `RECOVERY / ARCHIVE` secondary based on current Human clarification.
+- [x] Prepare `experiments/HOT-001/START_RECORDS/BPM160_DRAFT.md` with all non-semantic fields that can be prepared before project selection.
 
-## NEXT
+## NEXT — HUMAN GATE
 
-- [ ] Select one real project for HOT-001 Primary Run. **HUMAN semantic selection required.**
-  - Current candidate: `BPM160`.
-  - Best-fit test: creative continuity, idea memory, canon/current-state preservation, anti-repetition, novel next-step generation, recovery from stale/incomplete stored descriptions.
-  - Do not use BPM160 alone to infer general capability for revenue, consequential execution, or deployment.
-  - Historical BPM160 source-recovery language is not treated as an automatic prerequisite; if selected, preserve source conflicts in the Start Record rather than silently rebuilding the old project architecture.
-- [ ] Freeze that project's HOT-001 Start Record before the run.
-- [ ] Run HOT-001 with current system AS-IS and passive instrumentation only.
-- [ ] Freeze immutable RAW event log.
-- [ ] Evaluate RAW in a separate evaluation session using frozen criteria.
+- [ ] Confirm or reject `BPM160` as the HOT-001 Primary Run project.
+- [ ] If confirmed, accept or replace the candidate GOAL and EXTERNAL DONE in `BPM160_DRAFT.md`.
+
+Candidate GOAL:
+
+> Advance BPM160 by producing genuinely new series material while preserving the camera/protagonist + drone-reveal premise and avoiding material repetition of previously archived scenario/action ideas.
+
+Candidate EXTERNAL DONE:
+
+> One new, reviewable BPM160 sequence/episode concept exists; it is explicitly checked against the accessible prior idea archive for material repetition; the system provides the comparison/evidence; and Human performs only semantic creative acceptance, not operational deduplication or route recovery.
+
+After Human resolves this gate, the next autonomous steps are:
+
+- freeze the Start Record;
+- begin the HOT-001 Primary Run with current system AS-IS;
+- freeze RAW events;
+- stop only at the next genuine Human authority/semantic gate or real blocker.
 
 ## BLOCKED
 
