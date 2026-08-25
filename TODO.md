@@ -27,13 +27,13 @@ Stop only at a real Human authority/semantic gate, unavoidable Human-only action
 - [x] Human accepted the BPM160 GOAL.
 - [x] Human accepted the BPM160 EXTERNAL DONE condition.
 - [x] Freeze `experiments/HOT-001/START_RECORDS/HOT-001-BPM160-01_FROZEN.md`.
-- [x] Prepare neutral `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md`.
-- [x] Keep the studied run separate from HOT methodology/evaluator criteria.
+- [x] Prepare clean studied-session prompt: `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`.
+- [x] Keep HOT methodology/evaluator criteria out of the clean studied-session prompt.
 
 ## NEXT — HUMAN-ONLY SESSION BOUNDARY
 
 - [ ] Open a clean ChatGPT session with GitHub read access.
-- [ ] Submit exactly the contents of `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md` as the project instruction.
+- [ ] Submit exactly the contents of `experiments/HOT-001/RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_PROMPT.md`.
 
 Why Human is required here:
 
@@ -68,4 +68,4 @@ After that clean Primary Run completes:
 - [ ] Do not add router / drift detector / trajectory manager / new navigation policy before HOT-001 baseline.
 - [ ] Do not contaminate ARX-001 with HOT evidence unless a frozen ARX stage explicitly permits it.
 - [ ] Do not turn `W.md` or `Z.md` into authoritative state automatically.
-- [ ] Do not expose the studied BPM160 session to HOT rescue/evaluator instructions.
+- [ ] Do not expose the studied BPM160 session to HOT rescue/evaluator instructions or operator notes.
