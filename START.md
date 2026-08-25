@@ -8,10 +8,19 @@ It is **not** a Projector runtime, router, agent layer, or replacement for COS /
 
 1. `STATUS.md` — authoritative program-level current state.
 2. `TODO.md` — what is DONE / NEXT / BLOCKED / HUMAN-ONLY / DO NOT.
-3. `INSIGHTS.md` — high-value conceptual material that must survive individual AI sessions; not automatically current state.
-4. `OPERATING_PROTOCOL.md` — working rules, including `AKCJA → GDZIE → ODESŁAĆ`.
-5. `ARCHIVE_PROTOCOL.md` — RAW / session-harvest / insight preservation rules.
-6. Experiment-local status under `experiments/`.
+3. `OPERATING_PROTOCOL.md` — working rules, including `AKCJA → GDZIE → ODESŁAĆ` and `W / Z` capture commands.
+4. Experiment-local status under `experiments/`.
+
+## Quick capture
+
+```text
+W → save the immediately preceding Assistant response to W.md
+Z → save the immediately preceding Assistant response to Z.md
+```
+
+No summarization or reinterpretation unless Human explicitly asks for it.
+
+`W.md` and `Z.md` are capture files, not authoritative current state.
 
 ## Authority rule
 
@@ -19,22 +28,6 @@ It is **not** a Projector runtime, router, agent layer, or replacement for COS /
 - Each experiment owns its local detail in its own `STATUS.md`.
 - Root state should point to local owners rather than duplicate their full truth.
 - Frozen RAW artifacts are immutable evidence, not editable summaries.
-- `INSIGHTS.md` preserves valuable hypotheses/reframings but does not grant them decision authority.
-
-## Conversation continuity rule
-
-Conversation history alone is not treated as durable usable knowledge state.
-
-Material sessions should preserve:
-
-```text
-RAW source when available
-→ SESSION HARVEST
-→ INSIGHT promotion when valuable
-→ DECISION / STATUS only when actually authorized
-```
-
-Technical detail remains available as trace/evidence; it should not crowd out the conceptual synthesis that would be expensive to rediscover.
 
 ## Experiment separation
 
@@ -49,4 +42,4 @@ ARCHITECTURE CHANGE: NOT AUTHORIZED
 PRODUCT CHANGE BEFORE HOT-001 BASELINE: FORBIDDEN
 ```
 
-The repository may organize, record, measure, archive, and evaluate. It must not use that role as implicit authority to redesign the product.
+The repository may organize, record, measure, and evaluate. It must not use that role as implicit authority to redesign the product.
