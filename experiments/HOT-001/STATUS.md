@@ -7,7 +7,7 @@ EXPERIMENT: HOT-001
 NAME: HUMAN ORCHESTRATION TAX BASELINE
 PROTOCOL: 1.0
 MODE: AS-IS / OBSERVATIONAL
-STATUS: FROZEN BEFORE PRIMARY RUN
+STATUS: FROZEN / PRIMARY RUN READY TO LAUNCH
 ```
 
 ## Research question
@@ -20,7 +20,37 @@ STATUS: FROZEN BEFORE PRIMARY RUN
 CURRENT PROJECTOR / ECOSYSTEM AS-IS
 ```
 
-## Forbidden before baseline
+## Frozen project selection
+
+```text
+RUN_ID: HOT-001-BPM160-01
+PROJECT: BPM160
+PRIMARY CLASS: CREATIVE CONTINUITY
+SECONDARY CLASS: RECOVERY / ARCHIVE
+PROJECT SELECTION: HUMAN ACCEPTED
+GOAL: HUMAN ACCEPTED
+EXTERNAL DONE: HUMAN ACCEPTED
+START RECORD: FROZEN
+PRIMARY RUN: NOT YET STARTED
+```
+
+Frozen Start Record:
+
+`START_RECORDS/HOT-001-BPM160-01_FROZEN.md`
+
+Neutral Primary Run input:
+
+`RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md`
+
+## Primary distinction
+
+```text
+LEGITIMATE HUMAN INPUT
+!=
+HUMAN RESCUE
+```
+
+## Forbidden before/during baseline
 
 No new:
 
@@ -42,81 +72,38 @@ No new:
 - immutable RAW event recording;
 - separate evaluation after run.
 
-## Primary distinction
+## BPM160 scope of inference
 
-```text
-LEGITIMATE HUMAN INPUT
-!=
-HUMAN RESCUE
-```
+This run can provide evidence primarily about:
 
-## Project classes for interpreting runs
+- creative continuity;
+- memory/recovery of prior ideas;
+- current meaning versus stale history;
+- material repetition / near-repetition detection;
+- novel next-material generation;
+- Human operational rerouting required to reach a creative result.
 
-These classes do not change HOT-001 metrics or protocol. They only state what kind of Human work a selected real project is capable of exposing.
+Do not generalize one BPM160 run into claims about revenue, deployment, consequential effect authority, or all Projector workloads.
 
-```text
-CREATIVE CONTINUITY
-idea memory / canon / novelty / anti-repetition / creative trajectory
+## Launch integrity
 
-OPERATIONAL DELIVERY
-next-step selection / tools / execution / recovery / externally observable delivery
+Do not execute the Primary Run in the session that designed/froze HOT-001, because that session has direct exposure to the evaluation criteria and rescue taxonomy.
 
-REVENUE / MARKET
-market target / evidence freshness / buyer response / payment / real external outcome
+Launch a clean ChatGPT session with GitHub read access and supply only the neutral Primary Work Input. Do not add the HOT protocol or evaluator criteria to that session.
 
-RESEARCH / DISCOVERY
-critical unknown / source selection / evidence quality / synthesis / stop condition
-
-RECOVERY / ARCHIVE
-state reconstruction / current-vs-history / contradiction / missing-source handling
-```
-
-A single project may span more than one class. Do not infer general Projector capability from one task class.
-
-## BPM160 candidate assessment
-
-```text
-PRIMARY CLASS: CREATIVE CONTINUITY
-SECONDARY CLASS: RECOVERY / ARCHIVE
-```
-
-Current Human clarification of the original BPM160 intent:
-
-- a series of fast, unusual films;
-- the camera itself functions as part of the protagonist experience: primarily a hero-like point of view;
-- occasional transitions reveal an accompanying flying drone/camera that has been following the protagonist;
-- the project architecture primarily existed to archive ideas and prevent scenario/action ideas from repeating across the series.
-
-Therefore BPM160 is especially suitable for observing whether the current system can reduce Human work in:
-
-- remembering what has already been used;
-- distinguishing current canon from old/history material;
-- detecting repeated or near-repeated ideas;
-- preserving the creative premise across sessions;
-- proposing genuinely new next material without Human rerouting;
-- recovering when stored project descriptions are incomplete or stale.
-
-BPM160 is weaker as a standalone test of:
-
-- consequential effect authority;
-- production deployment;
-- external-market response;
-- revenue completion.
-
-Do not treat the historical `ORIGINAL SOURCE FILES REQUIRED FOR SAFE RESUME` statement as an automatic HOT blocker. The existing COS BPM160 state is partly reconstructed and may not fully represent the current Human-owned meaning. If BPM160 is selected, freeze the current Human clarification plus accessible durable sources as the Start Record and preserve any source conflict explicitly instead of making source archaeology a hidden prerequisite.
+The clean-session transcript is the primary RAW behavioral source. Classification happens later in a separate evaluation step.
 
 ## Current execution state
 
 ```text
-PRIMARY RUN: NOT STARTED
-REAL PROJECT: NOT YET SELECTED
-CANDIDATE: BPM160 / CREATIVE CONTINUITY
-START RECORD: NOT YET FROZEN
-RAW EVENT LOG: NOT YET CREATED
+PRIMARY RUN: READY / NOT STARTED
+START RECORD: FROZEN
+RUN INPUT: READY
+RAW EVENT LOG: PENDING RUN
 EVALUATION: PENDING
 RECONCILIATION: PENDING
 ```
 
 ## Next
 
-Human selects the real project and owns its GOAL / EXTERNAL DONE. If BPM160 is selected, freeze a Start Record around its creative-continuity objective, then run the current system AS-IS with passive observation only.
+Human performs the unavoidable UI/session boundary: open a clean ChatGPT session with GitHub access and submit exactly `RUN_INPUTS/HOT-001-BPM160-01_PRIMARY_INPUT.md` as the project instruction.
