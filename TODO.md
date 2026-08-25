@@ -14,16 +14,17 @@ This file answers only:
 - [x] Establish `START.md` as entrypoint.
 - [x] Establish root `STATUS.md` as authoritative program-level state.
 - [x] Separate ARX-001 from HOT-001.
-- [x] Freeze HOT-001 as AS-IS observational baseline in principle.
+- [x] Persist `OPERATING_PROTOCOL.md`.
+- [x] Persist ARX-001 local status.
+- [x] Persist HOT-001 local status.
+- [x] Freeze HOT-001 baseline protocol v1.0.
+- [x] Persist `HANDOFF_v1`, `HOT_EVENT_v1`, and `START_RECORD_v1` schemas.
 - [x] Adopt `AKCJA → GDZIE → ODESŁAĆ` as the working handoff format.
+- [x] Adopt continue-until-authority rule: perform all safe, already-authorized work before asking Human.
 
 ## NEXT
 
-- [ ] Persist `OPERATING_PROTOCOL.md`.
-- [ ] Persist ARX-001 local status.
-- [ ] Persist HOT-001 local status and frozen protocol v1.0.
-- [ ] Persist HOT event and start-record schemas.
-- [ ] Select one real project for HOT-001 Primary Run.
+- [ ] Select one real project for HOT-001 Primary Run. **HUMAN semantic selection required.**
 - [ ] Freeze that project's HOT-001 Start Record before the run.
 - [ ] Run HOT-001 with current system AS-IS and passive instrumentation only.
 - [ ] Freeze immutable RAW event log.
