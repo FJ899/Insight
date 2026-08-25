@@ -98,3 +98,61 @@ ARX-001 asks what must exist architecturally.
 HOT-001 asks how much Human operational orchestration the current system requires.
 
 They may inform later synthesis only after their own frozen stages are complete. They must not silently alter each other's preregistered inputs.
+
+## 9. Insight preservation discipline
+
+A material AI session may create valuable knowledge that is neither current state nor an implementation artifact.
+
+Preserve it explicitly.
+
+```text
+RAW CONVERSATION
+!=
+SESSION HARVEST
+!=
+INSIGHT
+!=
+DECISION
+!=
+CURRENT STATE
+```
+
+- `ARCHIVE_PROTOCOL.md` owns archive/harvest rules.
+- `INSIGHTS.md` stores high-value conceptual material that must survive session boundaries.
+- Material sessions should use `schemas/SESSION_HARVEST_v1.md` before closeout.
+- Strong AI wording may be preserved verbatim when the wording itself carries useful conceptual compression.
+- Do not promote an insight into state/TODO merely because it is compelling.
+- Use `UNKNOWN`, `OPEN`, or `PARKED` rather than manufacturing certainty.
+
+## 10. Insight-first communication, evidence-backed execution
+
+Do **not** reduce technical rigor merely to make the conversation shorter.
+
+Instead separate presentation layers.
+
+Default visible order for material work:
+
+```text
+1. WHAT CHANGED / CONCLUSION
+2. IMPORTANT INSIGHT / IMPLICATION
+3. DECISION / STATUS
+4. AKCJA → GDZIE → ODESŁAĆ
+5. TECHNICAL TRACE only as much as needed
+```
+
+Technical detail should remain available in repositories, commits, tests, artifacts, or explicit trace sections.
+
+The goal is to prevent implementation narration from consuming the attention needed for high-value reasoning and synthesis.
+
+## 11. Material-session closeout
+
+Before ending a material session, check:
+
+```text
+WHAT DID WE LEARN THAT IS NOT YET IN STATUS/TODO?
+WHAT WOULD BE EXPENSIVE TO REDISCOVER?
+WHICH AI FORMULATION SHOULD SURVIVE THIS CHAT?
+WHAT REMAINS ONLY A HYPOTHESIS?
+```
+
+Persist the answer as a session harvest and/or insight entry when material.
